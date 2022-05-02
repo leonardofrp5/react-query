@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  border: solid;
+  background-color: #61dafb;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  color: #282c34;
+}
+
+.item-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item-info {
+  font-size: 16px;
+}
+
+.section-content {
+  margin: 15px 20px 20px  20px;
+}
+
+.link-character {
+  text-decoration: none;
+  color: #282c34;
+}
